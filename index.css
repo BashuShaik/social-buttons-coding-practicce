@@ -1,0 +1,78 @@
+/* Write your code here. */
+
+@media (max-width: 576px) {
+  .bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+    background-size: cover;
+    height: 100vh;
+  }
+  .heading {
+    font-family: "Bree Serif";
+    color: #ffffff;
+  }
+  .container {
+    text-align: center;
+    padding-top: 35px;
+  }
+  .like {
+    background-color: #eab308;
+    font-family: "Roboto";
+    margin: 5px;
+    color: #ffffff;
+  }
+  .comment {
+    background-color: #ffffff;
+    font-family: "Roboto";
+    margin: 5px;
+  }
+  .share {
+    background-color: #1d4ed8;
+    font-family: "Roboto";
+    margin: 5px;
+    color: #ffffff;
+  }
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+    background-size: cover;
+    height: 100vh;
+  }
+  .heading {
+    font-family: "Bree Serif";
+    color: #ffffff;
+  }
+  .container {
+    text-align: center;
+    padding-top: 20%;
+  }
+  .like {
+    background-color: #eab308;
+    font-family: "Roboto";
+    margin: 5px;
+    color: #ffffff;
+  }
+  .comment {
+    background-color: #ffffff;
+    font-family: "Roboto";
+    margin: 5px;
+  }
+  .share {
+    background-color: #1d4ed8;
+    font-family: "Roboto";
+    margin: 5px;
+    color: #ffffff;
+  }
+  .buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
